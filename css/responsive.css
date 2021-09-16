@@ -1,0 +1,798 @@
+/* -------------- extra small device  ---------------- */
+
+
+@media (min-width:320px) and (max-width:575px) {
+    /* nav bar part */
+     nav{
+         background: transparent;
+     }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+ 
+    nav a img {    
+        background: transparent;
+        padding: 11px 0;
+        position: absolute;
+        top: -21px;
+        left: 0;
+        clip-path:none;
+    }
+    .navbar-toggler  .navbar-toggler-icon i{
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+            }
+
+    nav ul .nav-item a::after{
+                 display: none; 
+            }
+    nav ul {
+        background: #000;
+        text-align: center;
+        padding: 0 !important;
+        margin: 0 !important;
+           } 
+     nav ul li {
+            background: transparent !important;
+            padding: 0 0;
+            position: relative;
+            transition: .4s all linear;
+        }
+    nav ul .hm-active {
+            background: transparent !important;
+        }
+    nav ul .hm-active a{
+            color: red !important;
+        }
+    nav ul .hm-active::after{
+            width: 0;
+        }
+    nav ul li a{
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        font-size: 16px !important;
+    }
+    nav ul li:hover{
+        background: transparent !important;
+    }
+    nav ul .nav-item a:hover{
+        color: red !important;
+       
+    }
+    nav ul li:hover:after{
+        width: 0;
+    }
+    /* banner part */
+  
+    .banner-img-man{
+        display: none;
+    }
+    #banner-part .banner-text{
+        text-align: center !important;
+        padding-right: 0 !important;
+    }
+    #banner-part .banner-text p{
+        font-size: 20px;
+        text-align: center !important;
+    }
+    #banner-part .banner-text h1{
+        font-size: 60px;
+        text-align: center !important;
+        margin-top: -8px;
+        font-weight: 500;
+    }
+    #banner-part .banner-text h3{
+        font-size: 57px;
+        text-align: center !important;
+        margin-top: -8px !important;
+        font-weight: 500;
+    }
+    .banner .bnr-ovarlay h2::after,
+    .banner .bnr-ovarlay h2::before,
+    .banner .bnr-ovarlay h1::after,
+    .banner .bnr-ovarlay h1::before,
+    .banner .bnr-ovarlay p::after,
+    .banner .bnr-ovarlay p::before{
+                opacity: 0 !important;
+      }
+      .banner .bnr-ovarlay{
+        padding: 100px 0;
+        text-align: left;
+      }
+    .banner .bnr-ovarlay h2{
+        font-size: 25px;
+        padding-left: 10px !important;
+    }
+    .banner .bnr-ovarlay h1{
+        font-size: 38px;
+        padding: 0 0 !important;
+        padding-left: 10px !important;
+    }
+    .banner .bnr-ovarlay p{
+        width: auto;
+        padding-left: 10px !important;
+    }
+
+    .banner2 .bnr-ovarlay a,
+    .banner3 .bnr-ovarlay a{
+      margin-left: 5px !important;
+      margin-right: 0 !important;
+    }
+    .banner .bnr-ovarlay a {
+      
+        padding: 0px 15px;
+        margin: 0 4px;
+        
+    }
+
+
+              /* about part */
+    
+
+    #about-part .title{
+        margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    #about-part .about-text p{
+        color: #777777;
+    }
+    
+    
+    /* team part start */
+
+    #team-part .team .team-text p{
+        opacity: 1;
+    }
+    #team-part .team .team-img .team-img-ovarlay a{
+        color: #1da0f2;
+        background: #fffefe;
+    }
+    #team-part .team:hover {
+        transform:translateY(0px);
+        
+    }
+    #team-part .team .team-img .team-img-ovarlay{
+        transform: scale(.9);
+        opacity: 1;
+   }
+   #team-part .team .team-text{
+    border-color: #d6d6d6;
+    border-top-color: #f1f1f1;
+   }
+   #testimonial-part .testi{
+    margin-left: 0px;
+   }
+   /* membership part */
+
+   #membership-part .member{
+       margin-bottom: 25px;
+   }
+   /* counter part */
+   #counterup-part .counter-ovarlay .count{
+       margin-bottom: 10px;
+   }
+
+   /* rutine part  */
+   .colorful-tab-wrapper {
+    padding: 0;
+    }
+    .colorful-tab-menu {
+        flex-direction: row;
+    }
+    .colorful-tab-content .flex {
+        justify-content: space-between;
+        margin-bottom: 0;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+    .colorful-tab-content .flex .rutine{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .colorful-tab-wrapper::before{
+        display: none;
+    }
+    #marketplace-part .markert a{
+        margin-right: 10px !important;
+    }
+    /* footer part */
+    footer .footer-ovarlay .container{
+        padding-left: 10px !important;
+    }
+    footer .footer-logo{
+        padding: 15px 0!important;
+    }
+
+}
+
+
+ 
+
+/* --------------  small device  ---------------- */
+
+
+@media (min-width:576px) and (max-width:767px) {
+    /* nav bar part */
+     nav{
+         background: transparent;
+     }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+ 
+    nav a img {    
+        background: transparent;
+        padding: 11px 0;
+        position: absolute;
+        top: -21px;
+        left: 0;
+        clip-path:none;
+    }
+    .navbar-toggler  .navbar-toggler-icon i{
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+            }
+
+    nav ul .nav-item a::after{
+                 display: none; 
+            }
+    nav ul {
+        background: #000;
+        text-align: center;
+        padding: 0 !important;
+        margin: 0 !important;
+           } 
+     nav ul li {
+            background: transparent !important;
+            padding: 0 0;
+            position: relative;
+            transition: .4s all linear;
+        }
+    nav ul .hm-active {
+            background: transparent !important;
+        }
+    nav ul .hm-active a{
+            color: red !important;
+        }
+    nav ul .hm-active::after{
+            width: 0;
+        }
+    nav ul li a{
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        font-size: 16px !important;
+    }
+    nav ul li:hover{
+        background: transparent !important;
+    }
+    nav ul .nav-item a:hover{
+        color: red !important;
+       
+    }
+    nav ul li:hover:after{
+        width: 0;
+    }
+    /* banner part */
+    .banner-img-man{
+        display: none;
+    }
+    #banner-part .banner-text{
+        text-align: center !important;
+        padding-right: 0 !important;
+    }
+    #banner-part .banner-text p{
+        font-size: 20px;
+        text-align: center !important;
+    }
+    #banner-part .banner-text h1{
+        font-size: 60px;
+        text-align: center !important;
+        margin-top: -8px;
+        font-weight: 500;
+    }
+    #banner-part .banner-text h3{
+        font-size: 57px;
+        text-align: center !important;
+        margin-top: -8px !important;
+        font-weight: 500;
+    }
+    .banner .bnr-ovarlay h2::after,
+    .banner .bnr-ovarlay h2::before,
+    .banner .bnr-ovarlay h1::after,
+    .banner .bnr-ovarlay h1::before,
+    .banner .bnr-ovarlay p::after,
+    .banner .bnr-ovarlay p::before{
+                opacity: 0 !important;
+      }
+      .banner .bnr-ovarlay{
+        padding: 100px 0;
+        text-align: left;
+      }
+    .banner .bnr-ovarlay h2{
+        font-size: 25px;
+        padding-left: 10px !important;
+    }
+    .banner .bnr-ovarlay h1{
+        font-size: 38px;
+        padding: 0 0 !important;
+        padding-left: 10px !important;
+    }
+    .banner .bnr-ovarlay p{
+        width: auto;
+        padding-left: 10px !important;
+    }
+
+    .banner2 .bnr-ovarlay a,
+    .banner3 .bnr-ovarlay a{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    .button {
+        margin-right: 0;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    .button a{
+        font-size: 12px;
+        margin-left: 0;
+        margin-left: 15px;
+        margin-right: 25px;
+    }
+
+              /* about part */
+    
+
+    #about-part .title{
+        margin-top: 20px;
+       margin-bottom: 20px;
+    } 
+    
+    /* gellary part */
+    
+
+   
+   
+
+    /* team part start */
+
+    #team-part .team .team-text p{
+        opacity: 1;
+    }
+    #team-part .team .team-img .team-img-ovarlay a{
+        color: #1da0f2;
+        background: #fffefe;
+    }
+    #team-part .team:hover {
+        transform:translateY(0px);
+        
+    }
+    #team-part .team .team-img .team-img-ovarlay{
+        transform: scale(.9);
+        opacity: 1;
+   }
+   #team-part .team .team-text{
+    border-color: #d6d6d6;
+    border-top-color: #f1f1f1;
+   }
+   #testimonial-part .testi{
+    margin-left: 0px;
+   }
+   /* membership part */
+
+   #membership-part .member{
+       margin-bottom: 25px;
+   }
+   /* counter part */
+   #counterup-part .counter-ovarlay .count{
+       margin-bottom: 10px;
+   }
+
+   /* rutine part  */
+   #rutine-part .colorful-tab-wrapper {
+    padding: 0;
+    }
+    #rutine-part .colorful-tab-menu {
+        flex-direction: row;
+    }
+    #rutine-part .colorful-tab-menu-item {
+        width: 14%;
+    }
+    .colorful-tab-wrapper .colorful-tab-menu li{
+        text-align: center !important;
+    }
+    #rutine-part .colorful-tab-content .flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 0 !important;
+        display: block;
+    }
+    #rutine-part .colorful-tab-content .flex .rutine{
+        width: 19.9%;
+        margin-bottom: 0px;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        font-size: 24px !important;
+        
+    }
+    .colorful-tab-content .flex .rutine h3{
+        font-size: 14px;
+    }
+    .colorful-tab-content .flex .rutine i{
+        font-size: 34px;
+    }
+    .colorful-tab-content .flex .rutine p{
+        font-size: 14px;
+    }
+    .colorful-tab-wrapper::before{
+        display: none;
+    }
+    #marketplace-part .markert a{
+        margin-right: 10px !important;
+    }
+    /* footer part */
+    footer .footer-ovarlay .container{
+        padding-left: 10px !important;
+    }
+    footer .footer-logo{
+        padding: 15px 0!important;
+    }
+    footer .footer-ovarlay .photos .flex img{
+        width: 15%;
+        margin-bottom: 5px !important;
+    }
+    footer .footer-ovarlay h1{
+        margin: 0 !important;
+        padding-bottom: 15px !important;
+        margin-top: 20px !important;
+      
+    }
+    
+
+}
+/* -------------- medium device  ---------------- */
+
+
+@media (min-width:768px) and (max-width:991px) {
+    /* nav bar part */
+     nav{
+         background: transparent;
+     }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+ 
+    nav a img {    
+        background: transparent;
+        padding: 11px 0;
+        position: absolute;
+        top: -21px;
+        left: 0;
+        clip-path:none;
+    }
+    .navbar-toggler  .navbar-toggler-icon i{
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+            }
+
+    nav ul .nav-item a::after{
+                 display: none; 
+            }
+    nav ul {
+        background: #000;
+        text-align: center;
+        padding: 0 !important;
+        margin: 0 !important;
+           } 
+     nav ul li {
+            background: transparent !important;
+            padding: 0 0;
+            position: relative;
+            transition: .4s all linear;
+        }
+    nav ul .hm-active {
+            background: transparent !important;
+        }
+    nav ul .hm-active a{
+            color: red !important;
+        }
+    nav ul .hm-active::after{
+            width: 0;
+        }
+    nav ul li a{
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        font-size: 16px !important;
+    }
+    nav ul li:hover{
+        background: transparent !important;
+    }
+    nav ul .nav-item a:hover{
+        color: red !important;
+       
+    }
+    nav ul li:hover:after{
+        width: 0;
+    }
+    /* banner part */
+    .banner-img-man{
+        display: none;
+    }
+    #banner-part .banner .bnr-ovarlay p {
+        width: 450px;
+        margin: 0 !important;
+        margin-right: auto !important;
+    }
+ 
+    .banner .bnr-ovarlay h2::after,
+    .banner .bnr-ovarlay h2::before,
+    .banner .bnr-ovarlay h1::after,
+    .banner .bnr-ovarlay h1::before,
+    .banner .bnr-ovarlay p::after,
+    .banner .bnr-ovarlay p::before{
+                opacity: 0 !important;
+      }
+      .banner .bnr-ovarlay{
+        padding: 100px 0;
+        text-align: left;
+      }
+    .banner .bnr-ovarlay h2{
+        font-size: 25px;
+    
+    }
+    .banner .bnr-ovarlay h1{
+        font-size: 38px;
+        padding: 0 0 !important;
+    }
+    .banner .bnr-ovarlay p{
+        width: 450px;
+        margin: 0 !important;
+        margin-right: auto !important;
+    }
+
+    .banner2 .bnr-ovarlay a,
+    .banner3 .bnr-ovarlay a{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    .button {
+        margin-right: 0;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    .button a{
+        font-size: 12px;
+        margin-left: 0;
+        margin-left: 15px;
+        margin-right: 25px;
+    }
+
+              /* about part */
+    
+
+    #about-part .title{
+        margin-top: 20px;
+       margin-bottom: 20px;
+    } 
+    
+    /* gellary part */
+    
+
+   
+   
+
+    /* team part start */
+
+    #team-part .team .team-text p{
+        opacity: 1;
+    }
+    #team-part .team .team-img .team-img-ovarlay a{
+        color: #1da0f2;
+        background: #fffefe;
+    }
+    #team-part .team:hover {
+        transform:translateY(0px);
+        
+    }
+    #team-part .team .team-img .team-img-ovarlay{
+        transform: scale(.9);
+        opacity: 1;
+   }
+   #team-part .team .team-text{
+    border-color: #d6d6d6;
+    border-top-color: #f1f1f1;
+   }
+   #testimonial-part .testi{
+    margin-left: 0px;
+   }
+   /* membership part */
+
+   #membership-part .member{
+       margin-bottom: 25px;
+   }
+   /* counter part */
+   #counterup-part .counter-ovarlay .count{
+       margin-bottom: 10px;
+   }
+
+   /* rutine part  */
+   #rutine-part .colorful-tab-wrapper {
+    padding: 0;
+    }
+    #rutine-part .colorful-tab-menu {
+        flex-direction: row;
+    }
+    #rutine-part .colorful-tab-menu-item {
+        width: 14%;
+    }
+    .colorful-tab-wrapper .colorful-tab-menu li{
+        text-align: center !important;
+    }
+    #rutine-part .colorful-tab-content .flex {
+        flex-direction: row;
+        justify-content: f;
+        margin-bottom: 5px !important;
+        display: block;
+    }
+    #rutine-part .colorful-tab-content .flex .rutine{
+        width: 20%;
+        margin-bottom: 0px;
+        
+    }
+    .colorful-tab-content .flex .rutine h3{
+        font-size: 14px;
+    }
+    .colorful-tab-content .flex .rutine i{
+        font-size: 34px;
+    }
+    .colorful-tab-content .flex .rutine p{
+        font-size: 14px;
+    }
+    .colorful-tab-wrapper::before{
+        display: none;
+    }
+    #marketplace-part .markert a{
+        margin-right: 10px !important;
+    }
+    /* footer part */
+    footer .footer-ovarlay .container{
+        padding-left: 10px !important;
+    }
+    footer .footer-logo{
+        padding: 15px 0!important;
+    }
+    footer .footer-ovarlay .photos{
+        width: 400px !important;
+    }
+    footer .footer-ovarlay .photos .flex img{
+        width: 22%;
+        margin-bottom: 5px !important;
+    }
+    footer .footer-ovarlay h1{
+        margin: 0 !important;
+        padding-bottom: 15px !important;
+        margin-top: 20px !important;
+      
+    }
+    
+
+}
+
+/* -------------- large device  ---------------- */
+
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    /* banner part */
+    .banner-img-man{
+        display: none;
+    }
+    .banner .bnr-ovarlay h2::after{
+        width: 195px !important;
+        left: -205px;
+
+    }
+    .banner .bnr-ovarlay h2::before{
+
+        top: 24px;
+        right: -206px;
+        width: 86%;
+    
+    }
+    .banner-slider .next{
+        top: 46%;
+    }
+    .banner-slider .prev{
+        top: 46%;
+    }
+              /* about part */
+    
+
+    #about-part .title{
+        margin-top: 0px;
+       margin-bottom: 10px;
+    }
+    #about-part .about-text p{
+        color: #777777;
+        font-size: 13px !important;
+    }
+    
+    /* gellary part */
+    
+    #gallery-part .img .gal-overlay i {
+        font-size: 14px !important;
+    }
+   
+   
+
+   #membership-part .member{
+       margin-bottom: 25px;
+   }
+   /* counter part */
+   #counterup-part .counter-ovarlay .count{
+       margin-bottom: 10px;
+   }
+
+   /* rutine part  */
+   #rutine-part .colorful-tab-wrapper {
+    padding: 0;
+    }
+    #rutine-part .colorful-tab-menu {
+        flex-direction: row;
+    }
+    #rutine-part .colorful-tab-menu-item {
+        width: 14%;
+    }
+    .colorful-tab-wrapper .colorful-tab-menu li{
+        text-align: center !important;
+    }
+    #rutine-part .colorful-tab-content .flex {
+        flex-direction: row;
+        justify-content: f;
+        margin-bottom: 5px !important;
+        display: block;
+    }
+    #rutine-part .colorful-tab-content .flex .rutine{
+        width: 20%;
+        margin-bottom: 0px;
+        
+    }
+    .colorful-tab-content .flex .rutine h3{
+        font-size: 14px;
+    }
+    .colorful-tab-content .flex .rutine i{
+        font-size: 34px;
+    }
+    .colorful-tab-content .flex .rutine p{
+        font-size: 14px;
+    }
+    .colorful-tab-wrapper::before{
+        display: none;
+    }
+    #marketplace-part .markert a{
+        margin-right: 10px !important;
+    }
+
+    
+
+}

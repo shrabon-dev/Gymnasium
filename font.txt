@@ -1,0 +1,8 @@
+http://themesitem.com/demos/html/GYM/demo/index.html
+
+
+font-family: 'Oswald', sans-serif;
+
+font-family: 'Open Sans', sans-serif;
+
+background: #e23e38;
